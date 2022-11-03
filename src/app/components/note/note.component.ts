@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output, ViewChild} from '@angular/core';
 import { INote } from '../../model/INote';
 
 @Component({
@@ -15,7 +15,7 @@ export class NoteComponent implements OnInit {
 
   @Output() editNote = new EventEmitter<INote>();
   @Output() removeNote = new EventEmitter<INote>();
-
+  @ViewChild('boton') boton:any;
   constructor() {
    }
 

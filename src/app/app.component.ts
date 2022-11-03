@@ -9,7 +9,6 @@ import { INote } from './model/INote';
 export class AppComponent {
   title = 'holamundo';
 
-
   public alerta(){
     alert("Alerta Roja");
   }
