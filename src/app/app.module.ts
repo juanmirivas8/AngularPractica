@@ -43,7 +43,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '870225859421-tacughl35u9p8rgne25culc88ujnadek.apps.googleusercontent.com'
+              '1043418295363-0omd1asg23p3nb88lodb6h9ghfe67of6.apps.googleusercontent.com'
             )
           }
         ],
