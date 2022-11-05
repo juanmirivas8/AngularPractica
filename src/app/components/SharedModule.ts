@@ -5,7 +5,7 @@ import { NoteComponent } from './note/note.component';
 import { HighlightDirective } from '../directives/highlight.directive';
 
 @NgModule({
- imports:      [ CommonModule ],
+    imports: [CommonModule, HighlightDirective],
  declarations: [ NoteComponent ],
  exports:      [ NoteComponent/*, FormsModule */]
 })

@@ -35,7 +35,7 @@ export class FormNoteComponent implements OnInit {
       this.form.setValue(this.note);
 
       /*this.form.patchValue({
-        id: this.note.id, 
+        id: this.note.id,
       });*/
     }
   }
@@ -48,7 +48,7 @@ export class FormNoteComponent implements OnInit {
       description: this.form.value.description
     }
     this.onsubmit.emit(newNote);
-    //this.form.reset();
+    this.form.reset();
   }
 
 }

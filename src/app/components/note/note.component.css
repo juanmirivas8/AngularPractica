@@ -1,0 +1,14 @@
+.card-title{
+  text-align: center;
+}
+
+.card-body{
+  background-color: azure;
+}
+.card-body p{
+  background-color: aliceblue;
+}
+.card-body div{
+  display: flex;
+  justify-content: center;
+}
