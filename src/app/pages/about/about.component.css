@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Serif Georgian";
+}
+
+h3 {
+  text-align: center;
+  border-bottom: red 4px solid;
+  font-weight: bold;
+  color: #033E72;
+}
+
+h4{
+  margin:10px;
+}
+h4 span{
+  color:blue;
+}
+
+h5{
+  margin:10px;
+  color:blue;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: gray 1px dotted;
+}
+h5 span{
+  color:black;
+}
+
+.side{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill{
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.skillContainer{
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

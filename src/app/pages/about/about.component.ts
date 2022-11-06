@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient, HttpEventType } from '@angular/common/http';
+//import { HttpClient, HttpEventType } from '@angular/common/http';
 
 
 @Component({
@@ -11,10 +11,10 @@ import { HttpClient, HttpEventType } from '@angular/common/http';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  src = 'https://source.unsplash.com/random';
-  url = 'https://api.kanye.rest/';
-  mensaje='';
-  constructor(private http: HttpClient) { }
+  //src = 'https://source.unsplash.com/random';
+  //url = 'https://api.kanye.rest/';
+  //mensaje='';
+  constructor(/*private http: HttpClient*/) { }
 
   ngOnInit(): void {
     //primera línea
@@ -28,6 +28,7 @@ export class AboutComponent implements OnInit {
     console.log("FINAL");*/
     //fin de oninit
 
+    /*
     this.http
       .get(this.url, { observe: 'events', reportProgress: true })
       .subscribe((e) => {
@@ -40,7 +41,7 @@ export class AboutComponent implements OnInit {
           console.log(event.body);
           this.mensaje = event.body.quote;
         }
-      });
+      });*/
 
   }
 
