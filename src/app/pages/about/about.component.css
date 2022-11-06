@@ -35,6 +35,12 @@ h5 span{
   flex-direction: column;
 }
 
+.main{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
 .skill{
   border: 1px solid gray;
   border-radius: 5px;
@@ -49,4 +55,45 @@ h5 span{
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+  color: #033E72;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h6{
+  color: #033E72;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  color: navy;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.sobreMi{
+  margin: 10px;
+  color: navy;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+}
+
+.education p:first-of-type{
+  font-size: large;
+}
+.education p span{
+  color: #033E72;
+  font-weight: bold;
 }
