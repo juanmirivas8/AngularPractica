@@ -1,3 +1,11 @@
 img{
   width: 3em;
 }
+
+.navbar-nav{
+  flex-basis: 100%;
+}
+
+.languageButton{
+  margin-left: auto;
+}

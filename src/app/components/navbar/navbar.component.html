@@ -20,7 +20,19 @@
               <li><a class="dropdown-item" href="#" (click)="logout()" > {{"Cerrar sesión"|translate}} </a></li>
             </ul>
           </li>
+          <button [ngClass]="['languageButton']">
+            <ng-container *ngIf="language === 'es'">
+              <img src="assets/icons/united-kingdom-svgrepo-com.svg" (click)="changeLanguage('en')">
+            </ng-container>
+            <ng-container *ngIf="language === 'en'">
+              <img src="assets/icons/spain-svgrepo-com.svg" (click)="changeLanguage('es')">
+            </ng-container>
+          </button>
         </div>
+
       </div>
+
     </div>
+
+
   </nav>
